@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.main-container {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  margin-top: 5em;
+  border: none;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.img-container {
+  padding: 9em;
+  background: url("./images/image-product-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.desc-container {
+  padding: 2rem 2.2rem;
+  cursor: default;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+button {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 5.5rem;
+  text-align: center;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.heading,
+.desc,
+.old-price {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.secondary-heading,
+.new-price {
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces", serif;
+}
+
+.new-price {
+  color: hsl(158, 36%, 37%);
+}
+
+.secondary-heading {
+  margin: 0;
+}
